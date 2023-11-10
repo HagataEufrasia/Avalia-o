@@ -1,0 +1,27 @@
+
+###Adiciona
+POST http://localhost:3333/client
+Content-Type: application/json
+
+{
+  "name": "hgt ",
+ "email": "haaa@gmail.com"
+}
+###visualiza todos
+GET  http://localhost:3333/client
+
+
+####visualiza um especifico
+GET  http://localhost:3333/client/5
+
+
+####atualiza
+PUT http://localhost:3333/client/18
+Content-Type: application/json
+
+{
+ "name": "lulu  ",
+ "email": "ruan@gmail.com"
+}
+####deleta
+DELETE  http://localhost:3333/client/26
